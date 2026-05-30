@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "My_librairie_Dipole")(type "KiCad")(uri "${KIPRJMOD}/../libs/symbols/Librairie_CI_perso.kicad_sym")(options "")(descr "Dipole"))
+  (lib (name "My_librairie_Connecteur")(type "KiCad")(uri "${KIPRJMOD}/../libs/symbols/Librairie_Connector_perso.kicad_sym")(options "")(descr "Connector"))
+  (lib (name "My_librairie_Transistor")(type "KiCad")(uri "${KIPRJMOD}/../libs/symbols/Librairie_Dipole_perso.kicad_sym")(options "")(descr "Transistor"))
+  (lib (name "My_Librairie_IC")(type "KiCad")(uri "${KIPRJMOD}/../libs/symbols/Librairie_Transistor_perso.kicad_sym")(options "")(descr "Integrated Circuit"))
+  (lib (name "My_librairie_Other")(type "KiCad")(uri "${KIPRJMOD}/../libs/symbols/Librairie_Other_perso.kicad_sym")(options "")(descr ""))
+)

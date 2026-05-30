@@ -1,0 +1,48 @@
+Reference;Qty;Value;DNP;Exclude from BOM;Exclude from Board;Footprint;Datasheet
+BP1;1;Button_Reset;;;;My_footprints:Button_Reset;https://www.farnell.com/datasheets/3975354.pdf?_gl=1*1f6nbd1*_gcl_aw*R0NMLjE3NjU2NDI2OTUuQ2owS0NRaUF1dlRKQmhDd0FSSXNBTDZEZW1nQjE0blpvT1IyQ1NYbkNNNF91aEoxNU0wTTlvSGdYSmZqVTVFOE1GWEZEMlBsaVJhUklmUWFBa3VTRUFMd193Y0I.*_gcl_au*MTQzMTk2NjUzNC4xNzY0MTcxMTE0
+C1,C6;2;10uF;;;;Capacitor_SMD:C_1206_3216Metric;https://4donline.ihs.com/images/VipMasterIC/IC/SEMS/SEMS-S-A0008384515/SEMS-S-A0008888671-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0
+C2,C5,C8,C9,C10,C11,C12,C13,C14,C15,C16,C17,C19,C20,C23;15;100n;;;;Capacitor_SMD:C_1206_3216Metric;https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf
+C3;1;100n;;;;My_footprints:CAPA_FILM_L7.2mm_W2.5mm_P5.00mm;https://content.kemet.com/datasheets/KEM_F3101_R82.pdf
+C4;1;22uF;;;;Capacitor_SMD:C_1206_3216Metric;https://4donline.ihs.com/images/VipMasterIC/IC/SEMS/SEMS-S-A0008384515/SEMS-S-A0008888671-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0
+C18;1;47uF;;;;My_footprints:CAP ELECTROLY CMS 5MM;https://www.farnell.com/datasheets/3486024.pdf?_gl=1*1wznr7o*_gcl_aw*R0NMLjE3NjU2NDI2OTUuQ2owS0NRaUF1dlRKQmhDd0FSSXNBTDZEZW1nQjE0blpvT1IyQ1NYbkNNNF91aEoxNU0wTTlvSGdYSmZqVTVFOE1GWEZEMlBsaVJhUklmUWFBa3VTRUFMd193Y0I.*_gcl_au*MTQzMTk2NjUzNC4xNzY0MTcxMTE0
+C21,C30;2;~;;;;Capacitor_SMD:C_1206_3216Metric;https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf
+CON1,CON8,CON10;3;Conn_01x03;;;;Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical;https://www.gotronic.fr/pj-1261.pdf
+CON3,CON5,CON6;3;Conn_01x02;;;;Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical;https://www.gotronic.fr/pj-1261.pdf
+CON7;1;Conn_01x05;;;;Connector_Molex:Molex_KK-254_AE-6410-05A_1x05_P2.54mm_Vertical;https://www.gotronic.fr/pj-1261.pdf
+CON9;1;Conn_01x04;;;;Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical;https://www.gotronic.fr/pj-1261.pdf
+CONN2;1;USB_B;;;;My_footprints:USB_B;https://4donline.ihs.com/images/VipMasterIC/IC/SCMP/SCMP-S-A0010725696/SCMP-S-A0010725696-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0
+D2,D3;2;BAT42W-V;;;;My_footprints:D_SOD-123;https://www.farnell.com/datasheets/3775987.pdf?_gl=1*1kj4swu*_gcl_aw*R0NMLjE3NjU2NDI2OTUuQ2owS0NRaUF1dlRKQmhDd0FSSXNBTDZEZW1nQjE0blpvT1IyQ1NYbkNNNF91aEoxNU0wTTlvSGdYSmZqVTVFOE1GWEZEMlBsaVJhUklmUWFBa3VTRUFMd193Y0I.*_gcl_au*MTQzMTk2NjUzNC4xNzY0MTcxMTE0
+J4;1;Conn_Sil_06;;;;Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical;https://www.farnell.com/datasheets/2905949.pdf?_gl=1*1okw975*_gcl_aw*R0NMLjE3NjU2NDI2OTUuQ2owS0NRaUF1dlRKQmhDd0FSSXNBTDZEZW1nQjE0blpvT1IyQ1NYbkNNNF91aEoxNU0wTTlvSGdYSmZqVTVFOE1GWEZEMlBsaVJhUklmUWFBa3VTRUFMd193Y0I.*_gcl_au*MTQzMTk2NjUzNC4xNzY0MTcxMTE0 0 0 Centrer Centrer 0 0
+J5,J6;2;Conn_Sil_08;;;;Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical;https://www.farnell.com/datasheets/2905949.pdf?_gl=1*1okw975*_gcl_aw*R0NMLjE3NjU2NDI2OTUuQ2owS0NRaUF1dlRKQmhDd0FSSXNBTDZEZW1nQjE0blpvT1IyQ1NYbkNNNF91aEoxNU0wTTlvSGdYSmZqVTVFOE1GWEZEMlBsaVJhUklmUWFBa3VTRUFMd193Y0I.*_gcl_au*MTQzMTk2NjUzNC4xNzY0MTcxMTE0 0 0 Centrer Centrer 0 0
+J7;1;Conn_Sil_10;;;;Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical;https://www.farnell.com/datasheets/2905949.pdf?_gl=1*1okw975*_gcl_aw*R0NMLjE3NjU2NDI2OTUuQ2owS0NRaUF1dlRKQmhDd0FSSXNBTDZEZW1nQjE0blpvT1IyQ1NYbkNNNF91aEoxNU0wTTlvSGdYSmZqVTVFOE1GWEZEMlBsaVJhUklmUWFBa3VTRUFMd193Y0I.*_gcl_au*MTQzMTk2NjUzNC4xNzY0MTcxMTE0 0 0 Centrer Centrer 0 0
+JP1,JP2;2;Jumper_3_Bridged12;;Exclure de la Liste du Matériel;;Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical;https://www.farnell.com/datasheets/2905949.pdf?_gl=1*1okw975*_gcl_aw*R0NMLjE3NjU2NDI2OTUuQ2owS0NRaUF1dlRKQmhDd0FSSXNBTDZEZW1nQjE0blpvT1IyQ1NYbkNNNF91aEoxNU0wTTlvSGdYSmZqVTVFOE1GWEZEMlBsaVJhUklmUWFBa3VTRUFMd193Y0I.*_gcl_au*MTQzMTk2NjUzNC4xNzY0MTcxMTE0
+JP3;1;Jumper_2;;;;Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical;https://www.farnell.com/datasheets/2905949.pdf?_gl=1*1okw975*_gcl_aw*R0NMLjE3NjU2NDI2OTUuQ2owS0NRaUF1dlRKQmhDd0FSSXNBTDZEZW1nQjE0blpvT1IyQ1NYbkNNNF91aEoxNU0wTTlvSGdYSmZqVTVFOE1GWEZEMlBsaVJhUklmUWFBa3VTRUFMd193Y0I.*_gcl_au*MTQzMTk2NjUzNC4xNzY0MTcxMTE0
+JP4,JP5,JP6;3;Jumper_3;;Exclure de la Liste du Matériel;;Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical;https://www.farnell.com/datasheets/2905949.pdf?_gl=1*1okw975*_gcl_aw*R0NMLjE3NjU2NDI2OTUuQ2owS0NRaUF1dlRKQmhDd0FSSXNBTDZEZW1nQjE0blpvT1IyQ1NYbkNNNF91aEoxNU0wTTlvSGdYSmZqVTVFOE1GWEZEMlBsaVJhUklmUWFBa3VTRUFMd193Y0I.*_gcl_au*MTQzMTk2NjUzNC4xNzY0MTcxMTE0
+LDR1;1;LDR;;;;My_footprints:LDR_11x9.4mm_4.1x3.4mm_Vertical;https://www.farnell.com/datasheets/77395.pdf?_gl=1*conh1g*_gcl_aw*R0NMLjE3NjY0MjMwNjcuQ2p3S0NBaUE5YVBLQmhCaEVpd0F5ejgySjRGLW9mMG9GMVFzTWxHM2E1bUFwd2FGZ012LW1JNkFQcTFHUWhwbVdCYndWbTZUZnRBUmJ4b0MzZ2NRQXZEX0J3RQ..*_gcl_au*MTExOTg0Njg3My4xNzYzMTE0NTAw
+LED1;1;LED_BLEU;;;;LED_SMD:LED_1206_3216Metric;https://www.farnell.com/datasheets/2045849.pdf?_gl=1*2tkp48*_gcl_aw*R0NMLjE3NjU2NDI2OTUuQ2owS0NRaUF1dlRKQmhDd0FSSXNBTDZEZW1nQjE0blpvT1IyQ1NYbkNNNF91aEoxNU0wTTlvSGdYSmZqVTVFOE1GWEZEMlBsaVJhUklmUWFBa3VTRUFMd193Y0I.*_gcl_au*MTQzMTk2NjUzNC4xNzY0MTcxMTE0
+LED2;1;LED Orange;;;;My_footprints:LED_D3.0mm_Orange;https://www.farnell.com/datasheets/1747868.pdf?_gl=1*pae0vi*_gcl_aw*R0NMLjE3NjU2NDI2OTUuQ2owS0NRaUF1dlRKQmhDd0FSSXNBTDZEZW1nQjE0blpvT1IyQ1NYbkNNNF91aEoxNU0wTTlvSGdYSmZqVTVFOE1GWEZEMlBsaVJhUklmUWFBa3VTRUFMd193Y0I.*_gcl_au*MTQzMTk2NjUzNC4xNzY0MTcxMTE0
+LED3;1;LED Rouge;;;;LED_THT:LED_D3.0mm;https://www.farnell.com/datasheets/67052.pdf?_gl=1*mcv417*_gcl_aw*R0NMLjE3NjU2NDI2OTUuQ2owS0NRaUF1dlRKQmhDd0FSSXNBTDZEZW1nQjE0blpvT1IyQ1NYbkNNNF91aEoxNU0wTTlvSGdYSmZqVTVFOE1GWEZEMlBsaVJhUklmUWFBa3VTRUFMd193Y0I.*_gcl_au*MTQzMTk2NjUzNC4xNzY0MTcxMTE0
+LED4;1;LED Verte;;;;My_footprints:LED_D3.0mm_Green;https://www.farnell.com/datasheets/67043.pdf?_gl=1*1iej0tu*_gcl_aw*R0NMLjE3NjU2NDI2OTUuQ2owS0NRaUF1dlRKQmhDd0FSSXNBTDZEZW1nQjE0blpvT1IyQ1NYbkNNNF91aEoxNU0wTTlvSGdYSmZqVTVFOE1GWEZEMlBsaVJhUklmUWFBa3VTRUFMd193Y0I.*_gcl_au*MTQzMTk2NjUzNC4xNzY0MTcxMTE0
+Q2;1;2N2222A;;;;My_footprints:TO-18;https://www.farnell.com/datasheets/2861172.pdf?_gl=1*wrz45h*_gcl_aw*R0NMLjE3NjY0MjMwNjcuQ2p3S0NBaUE5YVBLQmhCaEVpd0F5ejgySjRGLW9mMG9GMVFzTWxHM2E1bUFwd2FGZ012LW1JNkFQcTFHUWhwbVdCYndWbTZUZnRBUmJ4b0MzZ2NRQXZEX0J3RQ..*_gcl_au*MTExOTg0Njg3My4xNzYzMTE0NTAw
+R1,R2;2;220;;;;Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder;~
+R3;1;5.6k;;;;Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder;~
+R4;1;3.3k;;;;Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder;~
+R5,R6;2;10k;;;;Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder;~
+R7;1;22k;;;;Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder;~
+R8,R17,R19;3;470;;;;Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal;~
+R9;1;2.2k;;;;Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal;~
+R10;1;1M;;;;Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder;~
+R11;1;10k;;;;Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal;~
+R12,R13,R14,R15;4;1k;;;;Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal;~
+R16,R18;2;5.6k;;;;Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal;~
+R20,R21,R23;3;680;;;;Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder;~
+R22;1;1k;;;;Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder;~
+R24;1;2.2k;;;;Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder;~
+R25,R30,R40;3;~;;;;Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder;~
+REF1;1;ZTL431;;;;My_footprints:SOT-23;https://www.farnell.com/datasheets/2096831.pdf?_gl=1*y344nv*_gcl_aw*R0NMLjE3NjU2NDI2OTUuQ2owS0NRaUF1dlRKQmhDd0FSSXNBTDZEZW1nQjE0blpvT1IyQ1NYbkNNNF91aEoxNU0wTTlvSGdYSmZqVTVFOE1GWEZEMlBsaVJhUklmUWFBa3VTRUFMd193Y0I.*_gcl_au*MTQzMTk2NjUzNC4xNzY0MTcxMTE0
+RPOT1;1;470;;;;My_footprints:Potentiometer standard;https://www.farnell.com/datasheets/2661581.pdf?_gl=1*1rm43cq*_gcl_aw*R0NMLjE3NjU2NDI2OTUuQ2owS0NRaUF1dlRKQmhDd0FSSXNBTDZEZW1nQjE0blpvT1IyQ1NYbkNNNF91aEoxNU0wTTlvSGdYSmZqVTVFOE1GWEZEMlBsaVJhUklmUWFBa3VTRUFMd193Y0I.*_gcl_au*MTQzMTk2NjUzNC4xNzY0MTcxMTE0
+RPOT2,RPOT3;2;1k;;;;My_footprints:Potentiometer standard;https://www.farnell.com/datasheets/2661581.pdf?_gl=1*1rm43cq*_gcl_aw*R0NMLjE3NjU2NDI2OTUuQ2owS0NRaUF1dlRKQmhDd0FSSXNBTDZEZW1nQjE0blpvT1IyQ1NYbkNNNF91aEoxNU0wTTlvSGdYSmZqVTVFOE1GWEZEMlBsaVJhUklmUWFBa3VTRUFMd193Y0I.*_gcl_au*MTQzMTk2NjUzNC4xNzY0MTcxMTE0
+RV1;1;47k;;;;My_footprints:Potentiometer standard;https://www.farnell.com/datasheets/2661581.pdf?_gl=1*1rm43cq*_gcl_aw*R0NMLjE3NjU2NDI2OTUuQ2owS0NRaUF1dlRKQmhDd0FSSXNBTDZEZW1nQjE0blpvT1IyQ1NYbkNNNF91aEoxNU0wTTlvSGdYSmZqVTVFOE1GWEZEMlBsaVJhUklmUWFBa3VTRUFMd193Y0I.*_gcl_au*MTQzMTk2NjUzNC4xNzY0MTcxMTE0
+TP1,TP2,TP3,TP4,TP5,TP6,TP7,TP9,TP12,TP13,TP16,TP18;12;TestPoint;;;;My_footprints:PT;https://www.gotronic.fr/art-50-cosses-poignard-coy71-4692.htm
+U1,U2,U3;3;MCP6002;;;;My_footprints:SO8_3.9x4.9mm_P1.27mm;https://www.microchip.com/en-us/product/mcp6002
+U4;1;MCP9801_SO8,NE555D;;;;My_footprints:DIL8,U5;http://ww1.microchip.com/downloads/en/DeviceDoc/21909d.pdf,http://www.ti.com/lit/ds/symlink/ne555.pdf
