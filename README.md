@@ -1,40 +1,42 @@
-PlatformIO Core
-===============
+# PlatformIO Core
 
-.. image:: https://github.com/platformio/platformio-core/workflows/Core/badge.svg
-    :target: https://docs.platformio.org/en/latest/core/index.html
-    :alt:  CI Build for PlatformIO Core
-.. image:: https://github.com/platformio/platformio-core/workflows/Docs/badge.svg
-    :target: https://docs.platformio.org?utm_source=github&utm_medium=core
-    :alt:  CI Build for Docs
-.. image:: https://github.com/platformio/platformio-core/workflows/Examples/badge.svg
-    :target: https://github.com/platformio/platformio-examples
-    :alt:  CI Build for dev-platform examples
-.. image:: https://github.com/platformio/platformio-core/workflows/Projects/badge.svg
-    :target: https://docs.platformio.org/en/latest/tutorials/index.html#projects
-    :alt:  CI Build for the Community Projects
-.. image:: https://img.shields.io/pypi/v/platformio.svg
-    :target: https://pypi.python.org/pypi/platformio/
-    :alt: Latest Version
-.. image:: https://img.shields.io/badge/PlatformIO-Labs-orange.svg
-   :alt: PlatformIO Labs
-   :target: https://piolabs.com/?utm_source=github&utm_medium=core
+[![Core](https://github.com/platformio/platformio-core/workflows/Core/badge.svg)](https://docs.platformio.org/en/latest/core/index.html)
+![CI Build for PlatformIO Core](https://github.com/platformio/platformio-core/workflows/Core/badge.svg)
 
-**Quick Links:** `Homepage <https://platformio.org?utm_source=github&utm_medium=core>`_ |
-`PlatformIO IDE <https://platformio.org/platformio-ide?utm_source=github&utm_medium=core>`_ |
-`Registry <https://registry.platformio.org?utm_source=github&utm_medium=core>`_ |
-`Project Examples <https://github.com/platformio/platformio-examples/>`__ |
-`Docs <https://docs.platformio.org?utm_source=github&utm_medium=core>`_ |
-`Donate <https://platformio.org/donate?utm_source=github&utm_medium=core>`_ |
-`Contact Us <https://piolabs.com/?utm_source=github&utm_medium=core>`_
+[![Docs](https://github.com/platformio/platformio-core/workflows/Docs/badge.svg)](https://docs.platformio.org?utm_source=github&utm_medium=core)
+![CI Build for Docs](https://github.com/platformio/platformio-core/workflows/Docs/badge.svg)
 
-**Social:** `LinkedIn <https://www.linkedin.com/company/platformio/>`_ |
-`Twitter <https://twitter.com/PlatformIO_Org>`_ |
-`Facebook <https://www.facebook.com/platformio>`_ |
-`Community Forums <https://community.platformio.org?utm_source=github&utm_medium=core>`_
+[![Examples](https://github.com/platformio/platformio-core/workflows/Examples/badge.svg)](https://github.com/platformio/platformio-examples)
+![CI Build for dev-platform examples](https://github.com/platformio/platformio-core/workflows/Examples/badge.svg)
 
-.. image:: https://raw.githubusercontent.com/platformio/platformio-web/develop/app/images/platformio-ide-laptop.png
-    :target: https://platformio.org?utm_source=github&utm_medium=core
+[![Projects](https://github.com/platformio/platformio-core/workflows/Projects/badge.svg)](https://docs.platformio.org/en/latest/tutorials/index.html#projects)
+![CI Build for the Community Projects](https://github.com/platformio/platformio-core/workflows/Projects/badge.svg)
+
+[![PyPI Version](https://img.shields.io/pypi/v/platformio.svg)](https://pypi.python.org/pypi/platformio/)
+![Latest Version](https://img.shields.io/pypi/v/platformio.svg)
+
+[![PlatformIO Labs](https://img.shields.io/badge/PlatformIO-Labs-orange.svg)](https://piolabs.com/?utm_source=github&utm_medium=core)
+
+## Quick Links
+
+- [Homepage](https://platformio.org?utm_source=github&utm_medium=core)
+- [PlatformIO IDE](https://platformio.org/platformio-ide?utm_source=github&utm_medium=core)
+- [Registry](https://registry.platformio.org?utm_source=github&utm_medium=core)
+- [Project Examples](https://github.com/platformio/platformio-examples/)
+- [Docs](https://docs.platformio.org?utm_source=github&utm_medium=core)
+- [Donate](https://platformio.org/donate?utm_source=github&utm_medium=core)
+- [Contact Us](https://piolabs.com/?utm_source=github&utm_medium=core)
+
+## Social
+
+- [LinkedIn](https://www.linkedin.com/company/platformio/)
+- [Twitter](https://twitter.com/PlatformIO_Org)
+- [Facebook](https://www.facebook.com/platformio)
+- [Community Forums](https://community.platformio.org?utm_source=github&utm_medium=core)
+
+## Screenshot
+
+[![PlatformIO IDE](https://raw.githubusercontent.com/platformio/platformio-web/develop/app/images/platformio-ide-laptop.png)](https://platformio.org?utm_source=github&utm_medium=core)
     
 1 Présentation du projet
    ---
