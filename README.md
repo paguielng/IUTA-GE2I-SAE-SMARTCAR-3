@@ -1,4 +1,4 @@
-# PlatformIO Core
+# PlatformIO
 
 [![Core](https://github.com/platformio/platformio-core/workflows/Core/badge.svg)](https://docs.platformio.org/en/latest/core/index.html)
 [![Docs](https://github.com/platformio/platformio-core/workflows/Docs/badge.svg)](https://docs.platformio.org?utm_source=github&utm_medium=core)
