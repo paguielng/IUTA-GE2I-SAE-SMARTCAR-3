@@ -1,38 +1,4 @@
 
-///////////////////////////////////////////////
-//  Déclarations des ALIAS des broches (pin) //
-///////////////////////////////////////////////
-const uint32_t PHARES_AR_PIN = D2;
-const uint32_t PHARES_AV_PIN = D11;
-
-const uint32_t CMD_GENE_AUDIO_PIN = D9;
-const uint32_t TONE_PIN = D10;
-const uint32_t PRES_PIN = D7;
-const uint32_t LOIN_PIN = D8;
-
-const uint32_t PWM_AVANT_PIN = D4;
-const uint32_t PWM_ARRIERE_PIN = D5;
-const uint32_t PWM_DROITE_PIN = D3;
-const uint32_t PWM_GAUCHE_PIN = D6;
-
-const uint16_t RX_PIN = D12; // mettre à jour les #define des codes générés par RemoteXY
-const uint16_t TX_PIN = D13; // mettre à jour les #define des codes générés par RemoteXY
-
-const uint32_t SDA_PIN = D14;
-const uint32_t SCL_PIN = D15;
-
-// Déclaration des canaux utilisés pour les PWM  //
-const uint32_t CANAL_DROITE = 2;
-const uint32_t CANAL_GAUCHE = 3;
-const uint32_t CANAL_PHARE = 3;   // Le canal pour phares arrière
-const uint32_t CANAL_AVANT = 3;   // canal 3 pour la propulsion avant
-const uint32_t CANAL_ARRIERE = 2; // canal 2 pour la propulsion arrière
-
-// Déclaration des timers            //
-HardwareTimer timerDirection(TIM2);
-HardwareTimer timerPropulsion(TIM3);
-HardwareTimer timerPhares(TIM4);
-
 //////////////////////////////////////////////
 //        RemoteXY include library          //
 //////////////////////////////////////////////
