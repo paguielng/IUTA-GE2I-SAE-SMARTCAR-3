@@ -1,4 +1,4 @@
-# SmartCar — Documentation des fonctions
+# SmartCar-Documentation des fonctions
 
 Projet SmartCar développé en C++ (STM32 Nucléo) dans le cadre du BUT GEII à l'IUT de Toulouse.
 Pilotage via l'application **RemoteXY** (Bluetooth), avec gestion de la direction, propulsion, phares, buzzer et capteurs.
@@ -195,7 +195,7 @@ Contrôle l'intensité des phares avant et arrière via PWM.
 - `freinage` — `true` → phares AV à 100% (255/255), `false` → 30% (77/255)
 - `lum` — `true` → phares AR à 30%, `false` → éteints
 
-> ⚠️ **Bug** : `analogWrite(PHARES_AR_PIN, intensite_ar)` est absent — les phares arrière ne s'allument jamais.
+> **Bug** : `analogWrite(PHARES_AR_PIN, intensite_ar)` est absent — les phares arrière ne s'allument jamais.
 
 ```cpp
 void gestion_phares(bool freinage, bool lum) {
@@ -226,8 +226,8 @@ Gère le buzzer de proximité avec une logique non-bloquante basée sur `millis(
 | `loin == true` | 2 bips/sec |
 | Aucun obstacle | Silence |
 
-> ⚠️ **Bug 1** : `loin` et `else` (silence) sont inversés dans le code original.  
-> ⚠️ **Bug 2** : `buzzerState` n'est jamais remis à `false` après relâchement du klaxon.
+> **Bug 1** : `loin` et `else` (silence) sont inversés dans le code original.  
+> **Bug 2** : `buzzerState` n'est jamais remis à `false` après relâchement du klaxon.
 
 **Version corrigée**
 
@@ -272,7 +272,7 @@ Lit la température depuis un capteur I2C compatible LM75 (adresse `0x48`).
 4. `requestFrom(0x48, 2)` → demande 2 octets (MSB + LSB)
 5. Lecture du MSB (partie entière signée)
 
-> ⚠️ **Incomplet** : la lecture du LSB (fraction) et l'envoi vers `RemoteXY` sont commentés — la température n'est pas affichée.
+> **Incomplet** : la lecture du LSB (fraction) et l'envoi vers `RemoteXY` sont commentés — la température n'est pas affichée.
 
 ---
 
@@ -296,7 +296,7 @@ Boucle principale exécutée en permanence. Ordre d'exécution :
 2. Lecture des capteurs (`digitalRead` / `analogRead`)
 3. Appels aux fonctions de pilotage : bargraph, buzzer, direction, phares
 
-> ⚠️ **Bug** : les variables `freinage` et `lum` passées à `gestion_phares()` ne sont jamais initialisées → comportement indéterminé.
+> **Bug** : les variables `freinage` et `lum` passées à `gestion_phares()` ne sont jamais initialisées → comportement indéterminé.
 
 ---
 
@@ -304,11 +304,11 @@ Boucle principale exécutée en permanence. Ordre d'exécution :
 
 | Fonction | Sévérité | Description | Correction |
 |---|---|---|---|
-| `gestion_phares` | 🔴 Majeur | `analogWrite(PHARES_AR_PIN, ...)` manquant | Ajouter la ligne |
-| `gestion_buzzer` | 🟠 Moyen | `loin` et `else` inversés | Échanger les blocs |
-| `gestion_buzzer` | 🟠 Moyen | `buzzerState` non réinitialisé après klaxon | Ajouter reset dans le `else` |
-| `recep_temperature` | 🟡 Mineur | LSB et affichage commentés | Décommenter et compléter |
-| `loop` | 🟠 Moyen | `freinage` et `lum` non initialisés | Initialiser à `false` |
+| `gestion_phares` | Majeur | `analogWrite(PHARES_AR_PIN, ...)` manquant | Ajouter la ligne |
+| `gestion_buzzer` | Moyen | `loin` et `else` inversés | Échanger les blocs |
+| `gestion_buzzer` | Moyen | `buzzerState` non réinitialisé après klaxon | Ajouter reset dans le `else` |
+| `recep_temperature` | Mineur | LSB et affichage commentés | Décommenter et compléter |
+| `loop` | Moyen | `freinage` et `lum` non initialisés | Initialiser à `false` |
 
 ---
 
