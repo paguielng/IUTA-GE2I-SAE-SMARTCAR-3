@@ -7,8 +7,6 @@
 [![PyPI Version](https://img.shields.io/pypi/v/platformio.svg)](https://pypi.python.org/pypi/platformio/)
 [![PlatformIO Labs](https://img.shields.io/badge/PlatformIO-Labs-orange.svg)](https://piolabs.com/?utm_source=github&utm_medium=core)
 
-## Screenshot
-
 [![PlatformIO IDE](https://raw.githubusercontent.com/platformio/platformio-web/develop/app/images/platformio-ide-laptop.png)](https://platformio.org?utm_source=github&utm_medium=core)
     
 1 Présentation du projet
